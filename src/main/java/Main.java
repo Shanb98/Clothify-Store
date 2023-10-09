@@ -1,5 +1,3 @@
-package edu.icet;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,7 +10,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/loginPage.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/userRegistration.fxml"))));
+        stage.setResizable(false);
         stage.show();
     }
 }
