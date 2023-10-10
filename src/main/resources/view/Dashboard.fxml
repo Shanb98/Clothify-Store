@@ -17,7 +17,7 @@
                   <Image url="@../images/image-removebg-preview.png" />
                </image>
             </ImageView>
-            <Label layoutX="66.0" layoutY="-7.0" text="Clothify Store">
+            <Label layoutX="74.0" layoutY="-4.0" text="Clothify Store">
                <font>
                   <Font name="Papyrus" size="32.0" />
                </font>
@@ -52,13 +52,13 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="34.0" layoutY="94.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="🛒    Add Orders" textFill="WHITE">
+            <Button layoutX="27.0" layoutY="94.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="🛒    Add Orders" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="294.0" prefHeight="678.0" prefWidth="655.0" style="-fx-background-color: rgba(29, 24, 11, 0.4);" />
+      <AnchorPane layoutX="295.0" prefHeight="680.0" prefWidth="700.0" style="-fx-background-color: rgba(29, 24, 11, 0.4);" />
    </children>
 </AnchorPane>
