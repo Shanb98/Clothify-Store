@@ -1,14 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="edu.icet.controller.DashItemController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.DashSuppliesController">
+   <children>
+      <ImageView fitHeight="680.0" fitWidth="700.0" layoutY="1.0">
+         <image>
+            <Image url="@../images/thom-bradley-mwa_nzFpnJw-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="680.0" prefWidth="700.0" style="-fx-background-color: rgba(29, 24, 11, 0.4);">
+         <children>
+            <JFXButton layoutX="-32.0" layoutY="-19.0" text="🔙" textFill="#ebebeb">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="437.0" layoutY="35.0" text="Order ID* :" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="575.0" layoutY="36.0" text="ORD00001" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="139.0" prefHeight="25.0" prefWidth="142.0" text="Item Code* :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="169.0" prefHeight="25.0" prefWidth="142.0" text="Supplier* :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="199.0" text="Description* :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="137.0" layoutY="133.0" prefHeight="25.0" prefWidth="119.0" promptText="Employer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <JFXTextField layoutX="137.0" layoutY="168.0" prefHeight="25.0" prefWidth="219.0" promptText="Enter Customer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <JFXTextField layoutX="137.0" layoutY="199.0" prefHeight="25.0" prefWidth="219.0" promptText="Enter Contact Number" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <Label layoutX="402.0" layoutY="147.0" prefHeight="25.0" prefWidth="142.0" text="Item ID*         :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox layoutX="504.0" layoutY="141.0" prefHeight="25.0" prefWidth="74.0" unFocusColor="WHITE" />
+            <Label layoutX="400.0" layoutY="181.0" prefHeight="25.0" prefWidth="98.0" text="Type               :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="401.0" layoutY="259.0" prefHeight="25.0" prefWidth="99.0" text="Profit              :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="503.0" layoutY="255.0" prefHeight="25.0" prefWidth="185.0" promptText="0.00" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <Button layoutX="254.0" layoutY="322.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="102.0" style="-fx-background-color: #ECF9FF;" text="Print">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="375.0" layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #ECF9FF;" text="Clear">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="488.0" layoutY="322.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="98.0" style="-fx-background-color: #ECF9FF;" text="Add Stock">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="597.0" layoutY="322.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="98.0" style="-fx-background-color: #ECF9FF;" text="Save">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TableView layoutX="12.0" layoutY="398.0" prefHeight="245.0" prefWidth="676.0" style="-fx-background-color: rgba(255, 255, 255, 0.70);">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="Code" />
+                  <TableColumn prefWidth="75.0" text="Description" />
+                  <TableColumn prefWidth="75.0" text="Qty" />
+                  <TableColumn prefWidth="75.0" text="Selling Price" />
+                  <TableColumn prefWidth="75.0" text="Buying Price" />
+                  <TableColumn prefWidth="75.0" text="Type" />
+                  <TableColumn prefWidth="75.0" text="Size" />
+                  <TableColumn prefWidth="75.0" text="Profit" />
+                  <TableColumn prefWidth="75.0" text="Supplier ID" />
+               </columns>
+            </TableView>
+            <Label layoutX="11.0" layoutY="240.0" prefHeight="25.0" prefWidth="49.0" text="Qty    :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="62.0" layoutY="236.0" prefHeight="25.0" prefWidth="49.0" promptText="Qty" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <Label layoutX="147.0" layoutY="242.0" prefHeight="25.0" prefWidth="87.0" text="Qty Hand    :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="230.0" layoutY="240.0" prefHeight="25.0" prefWidth="68.0" promptText="Qty Hand" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <Label layoutX="8.0" layoutY="280.0" prefHeight="25.0" prefWidth="142.0" text="Item Code* :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="137.0" layoutY="274.0" prefHeight="25.0" prefWidth="119.0" promptText="Employer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <JFXComboBox layoutX="504.0" layoutY="181.0" prefHeight="25.0" prefWidth="74.0" unFocusColor="WHITE" />
+            <Label layoutX="399.0" layoutY="219.0" prefHeight="25.0" prefWidth="98.0" text="Size                :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox layoutX="503.0" layoutY="219.0" prefHeight="25.0" prefWidth="74.0" unFocusColor="WHITE" />
+            <TextField layoutX="6.0" layoutY="102.0" prefHeight="25.0" prefWidth="171.0" promptText="SEARCH ITEM" style="-fx-background-color: #E3E5DF;" />
+            <Button layoutX="231.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #ECF9FF;" text="Place Order" />
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
