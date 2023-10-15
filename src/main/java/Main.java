@@ -10,8 +10,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/RegisterPage.fxml"))));
-        stage.setResizable(false);
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/Dashboard.fxml"))));
         stage.show();
+
+        stage.setResizable(false);
     }
 }

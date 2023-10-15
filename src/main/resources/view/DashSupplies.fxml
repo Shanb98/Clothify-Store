@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.DashItemController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.DashSuppliesController">
    <children>
       <ImageView fitHeight="680.0" fitWidth="700.0" layoutY="1.0">
          <image>
@@ -48,32 +48,32 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="137.0" layoutY="133.0" prefHeight="25.0" prefWidth="119.0" promptText="SUP-0000" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
-            <JFXTextField layoutX="137.0" layoutY="204.0" prefHeight="25.0" prefWidth="219.0" promptText="Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
-            <JFXComboBox layoutX="140.0" layoutY="165.0" prefHeight="25.0" prefWidth="74.0" promptText="Select" style="-fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
-            <Button layoutX="16.0" layoutY="322.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="65.0" style="-fx-background-color: #ECF9FF;" text="Print">
+            <JFXTextField fx:id="txtSupId" layoutX="137.0" layoutY="133.0" prefHeight="25.0" prefWidth="119.0" promptText="SUP0000" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
+            <JFXTextField fx:id="txtSupName" layoutX="135.0" layoutY="203.0" prefHeight="25.0" prefWidth="219.0" promptText="Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
+            <JFXComboBox fx:id="selectTitle" layoutX="138.0" layoutY="165.0" prefHeight="25.0" prefWidth="74.0" promptText="Select" style="-fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
+            <Button layoutX="16.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnPrint" prefHeight="15.0" prefWidth="65.0" style="-fx-background-color: #ECF9FF;" text="Print">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button layoutX="92.0" layoutY="322.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="73.0" style="-fx-background-color: #ECF9FF;" text="Clear">
+            <Button layoutX="92.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnClear" prefHeight="29.0" prefWidth="73.0" style="-fx-background-color: #ECF9FF;" text="Clear">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button layoutX="175.0" layoutY="322.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="78.0" style="-fx-background-color: #ECF9FF;" text="Add Stock">
+            <Button layoutX="175.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnAddStock" prefHeight="29.0" prefWidth="78.0" style="-fx-background-color: #ECF9FF;" text="Add Stock">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <TableView layoutX="12.0" layoutY="398.0" prefHeight="245.0" prefWidth="676.0" style="-fx-background-color: rgba(255, 255, 255, 0.70);">
+            <TableView fx:id="tbpSupplier" layoutX="12.0" layoutY="398.0" prefHeight="245.0" prefWidth="676.0" style="-fx-background-color: rgba(255, 255, 255, 0.70);">
                <columns>
-                  <TableColumn prefWidth="75.0" text="ID" />
-                  <TableColumn prefWidth="123.88888549804688" text="Title" />
-                  <TableColumn prefWidth="99.11111450195312" text="Name" />
-                  <TableColumn prefWidth="121.11117553710938" text="Company" />
-                  <TableColumn prefWidth="124.77783203125" text="Contact" />
-                  <TableColumn prefWidth="129.0" text="Option" />
+                  <TableColumn fx:id="colSupId" prefWidth="75.0" text="ID" />
+                  <TableColumn fx:id="colSupTitle" prefWidth="78.66665649414062" text="Title" />
+                  <TableColumn fx:id="ColSupName" prefWidth="153.33331298828125" text="Name" />
+                  <TableColumn fx:id="colSupCompany" prefWidth="166.6666259765625" text="Company" />
+                  <TableColumn fx:id="colSupContact" prefWidth="104.3333740234375" text="Contact" />
+                  <TableColumn fx:id="colSupOption" prefWidth="99.66668701171875" text="Option" />
                </columns>
             </TableView>
             <Label layoutX="11.0" layoutY="240.0" prefHeight="25.0" prefWidth="98.0" text="Contact* :" textFill="#402222">
@@ -81,20 +81,20 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="135.0" layoutY="235.0" prefHeight="25.0" prefWidth="220.0" promptText="Contact" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
+            <JFXTextField fx:id="txtSupContact" layoutX="135.0" layoutY="235.0" prefHeight="25.0" prefWidth="220.0" promptText="Contact" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
             <Label layoutX="8.0" layoutY="280.0" prefHeight="25.0" prefWidth="142.0" text="Company* :" textFill="#402222">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="137.0" layoutY="274.0" prefHeight="25.0" prefWidth="217.0" promptText="Company Name (Pvt) Ltd." style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
-            <TextField layoutX="6.0" layoutY="102.0" prefHeight="25.0" prefWidth="171.0" promptText="SEARCH Supplies" style="-fx-background-color: #E3E5DF;" />
-            <Button layoutX="216.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #ECF9FF;" text="Search" />
-            <TableView layoutX="391.0" layoutY="103.0" prefHeight="245.0" prefWidth="301.0" style="-fx-background-color: rgba(255, 255, 255, 0.70);">
+            <JFXTextField fx:id="txtSupCompany" layoutX="134.0" layoutY="274.0" prefHeight="25.0" prefWidth="217.0" promptText="Company Name (Pvt) Ltd." style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#402222" />
+            <TextField fx:id="txtSearchSup" layoutX="6.0" layoutY="102.0" prefHeight="25.0" prefWidth="171.0" promptText="SEARCH Supplies" style="-fx-background-color: #E3E5DF;" />
+            <Button layoutX="216.0" layoutY="102.0" mnemonicParsing="false" onAction="#btnSearchSup" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #ECF9FF;" text="Search" />
+            <TableView fx:id="tblSupItem" layoutX="391.0" layoutY="103.0" prefHeight="245.0" prefWidth="301.0" style="-fx-background-color: rgba(255, 255, 255, 0.70);">
                <columns>
-                  <TableColumn prefWidth="75.0" text="Item Code" />
-                  <TableColumn prefWidth="123.88888549804688" text="Description" />
-                  <TableColumn prefWidth="101.0" text="Qty" />
+                  <TableColumn fx:id="colSupItemCode" prefWidth="75.0" text="Item Code" />
+                  <TableColumn fx:id="colSupDescription" prefWidth="123.88888549804688" text="Description" />
+                  <TableColumn fx:id="colSupQty" prefWidth="101.0" text="Qty" />
                </columns>
             </TableView>
          </children>

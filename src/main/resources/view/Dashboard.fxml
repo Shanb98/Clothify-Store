@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.Dashboard">
+<AnchorPane fx:id="dashboardPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.Dashboard">
    <children>
       <AnchorPane prefHeight="678.0" prefWidth="294.0" style="-fx-background-color: #E5E0E0;">
          <children>
@@ -22,43 +21,43 @@
                   <Font name="Papyrus" size="32.0" />
                </font>
             </Label>
-            <Button layoutX="30.0" layoutY="174.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="👕    Add Items" textFill="WHITE">
+            <Button layoutX="30.0" layoutY="174.0" mnemonicParsing="false" onAction="#itemBtn" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="👕    Add Items" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="34.0" layoutY="588.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="📈    Sales Reports" textFill="WHITE">
+            <Button layoutX="34.0" layoutY="588.0" mnemonicParsing="false" onAction="#salesReportBtn" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="📈    Sales Reports" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="510.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="↩    Sales Returns" textFill="WHITE">
+            <Button layoutX="31.0" layoutY="510.0" mnemonicParsing="false" onAction="#salesReturnBtn" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="↩    Sales Returns" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="30.0" layoutY="426.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="📦    Order Details" textFill="WHITE">
+            <Button layoutX="30.0" layoutY="426.0" mnemonicParsing="false" onAction="#orderDetailsBtn" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="📦    Order Details" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="339.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="💼    Add Suppliers" textFill="WHITE">
+            <Button layoutX="31.0" layoutY="339.0" mnemonicParsing="false" onAction="#supplierBtn" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="💼    Add Suppliers" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="30.0" layoutY="258.0" mnemonicParsing="false" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="👨‍💼  Add Employers" textFill="WHITE">
+            <Button layoutX="30.0" layoutY="258.0" mnemonicParsing="false" onAction="#employeeBtn" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="👨‍💼  Add Employers" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button layoutX="27.0" layoutY="94.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="🛒    Add Orders" textFill="WHITE">
+            <Button layoutX="27.0" layoutY="94.0" mnemonicParsing="false" onAction="#orderBtn" prefHeight="51.0" prefWidth="238.0" style="-fx-background-color: rgba(17, 57, 70, 0.62); -fx-background-radius: 30;" text="🛒    Add Orders" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="295.0" prefHeight="680.0" prefWidth="700.0" style="-fx-background-color: rgba(29, 24, 11, 0.4);" />
+      <AnchorPane fx:id="rootPane" layoutX="295.0" prefHeight="680.0" prefWidth="700.0" style="-fx-background-color: rgba(29, 24, 11, 0.4);" />
    </children>
 </AnchorPane>

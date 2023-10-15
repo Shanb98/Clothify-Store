@@ -38,33 +38,33 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <Button layoutX="14.0" layoutY="118.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: #DBC6BC;" text="Send OTP">
+            <Button layoutX="14.0" layoutY="118.0" mnemonicParsing="false" onAction="#btnSendOtp" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: #DBC6BC;" text="Send OTP">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <TextField layoutX="21.0" layoutY="169.0" prefHeight="11.0" prefWidth="142.0" promptText="XXXX" style="-fx-background-color: #E3E5DF;">
+            <TextField fx:id="txtOtp" layoutX="21.0" layoutY="169.0" prefHeight="11.0" prefWidth="142.0" promptText="XXXX" style="-fx-background-color: #E3E5DF;">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <Button layoutX="187.0" layoutY="169.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="98.0" style="-fx-background-color: #DBC6BC;" text="Confirm">
+            <Button layoutX="187.0" layoutY="169.0" mnemonicParsing="false" onAction="#btnOtpConfirm" prefHeight="37.0" prefWidth="98.0" style="-fx-background-color: #DBC6BC;" text="Confirm">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <TextField layoutX="21.0" layoutY="242.0" prefHeight="31.0" prefWidth="373.0" promptText="ENTER PASSWORD" style="-fx-background-color: #E3E5DF;">
+            <TextField fx:id="txtEnterPw" layoutX="21.0" layoutY="243.0" prefHeight="31.0" prefWidth="373.0" promptText="ENTER PASSWORD" style="-fx-background-color: #E3E5DF;">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <TextField layoutX="21.0" layoutY="304.0" prefHeight="24.0" prefWidth="373.0" promptText="CONFIRM PASSWORD" style="-fx-background-color: #E3E5DF;">
+            <TextField fx:id="txtConfirmPw" layoutX="21.0" layoutY="304.0" prefHeight="24.0" prefWidth="373.0" promptText="CONFIRM PASSWORD" style="-fx-background-color: #E3E5DF;">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <CheckBox layoutX="276.0" layoutY="363.0" mnemonicParsing="false" prefWidth="120.0" text="Show Password" />
-            <Button layoutX="263.0" layoutY="415.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="128.0" style="-fx-background-color: #DBC6BC;" text="Confirm">
+            <CheckBox layoutX="276.0" layoutY="363.0" mnemonicParsing="false" onAction="#chechShowPw" prefWidth="120.0" text="Show Password" />
+            <Button layoutX="263.0" layoutY="415.0" mnemonicParsing="false" onAction="#btnAllConfirm" prefHeight="37.0" prefWidth="128.0" style="-fx-background-color: #DBC6BC;" text="Confirm">
                <font>
                   <Font size="15.0" />
                </font>
