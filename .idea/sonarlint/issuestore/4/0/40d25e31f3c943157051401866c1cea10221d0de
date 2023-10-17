@@ -1,0 +1,39 @@
+
+h	java:S112Ö"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8éÜÁ–³1
+h	java:S112Ø"FDefine and throw a dedicated exception instead of using a generic one.(€×»˜ûÿÿÿÿ8éÜÁ–³1
+h	java:S112ğ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8éÜÁ–³1
+c
+java:S1192r"GDefine a constant instead of duplicating this literal "EMPNic" 3 times.(•È$8êÜÁ–³1
+h
+java:S1192t"KDefine a constant instead of duplicating this literal "EMPAddress" 3 times.(Çê¢ß8êÜÁ–³1
+e
+java:S1192q"HDefine a constant instead of duplicating this literal "EMPName" 3 times.(òÇïÒ8êÜÁ–³1
+d
+java:S1192s"GDefine a constant instead of duplicating this literal "EMPDob" 3 times.(…¨¹È8êÜÁ–³1
+h
+java:S1192o"FDefine a constant instead of duplicating this literal "EMPID" 4 times.(Ğ·ë¨ÿÿÿÿÿ8êÜÁ–³1
+k
+java:S1192p"IDefine a constant instead of duplicating this literal "EMPTitle" 3 times.(øû¾‚øÿÿÿÿ8êÜÁ–³1
+m
+java:S1192u"KDefine a constant instead of duplicating this literal "EMPContact" 3 times.(±ÛÕıÿÿÿÿ8êÜÁ–³1
+h
+java:S1192v"LDefine a constant instead of duplicating this literal "EMPBankAcNo" 3 times.(†¢ÔJ8êÜÁ–³1
+g
+java:S1192w"JDefine a constant instead of duplicating this literal "EMPBranch" 3 times.(û°¦Ù8êÜÁ–³1
+s	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“§€ùıÿÿÿÿ8êÜÁ–³1
+e
+java:S2095ú"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8™İÁ–³1
+m
+java:S2095ß"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¨8™İÁ–³1
+e
+java:S2095…"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8µÚÑ–³1
+¤
+java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ†€ªıÿÿÿÿ8™İÁ–³1
+e
+java:S1858¶"B"getValue" returns a string, there's no need to call "toString()".(àï©úÿÿÿÿ8¡İÁ–³1
+c
+java:S2147×"ECombine this catch with the one at line 213, which has the same body.(ıàÑÎ8¡İÁ–³1
+e
+java:S1858Ã"B"getValue" returns a string, there's no need to call "toString()".(àï©úÿÿÿÿ8¢İÁ–³1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8€ŸÚ¿³1

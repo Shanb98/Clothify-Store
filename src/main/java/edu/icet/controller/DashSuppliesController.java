@@ -78,8 +78,6 @@ public class DashSuppliesController implements Initializable  {
         colSupCompany.setCellValueFactory(new PropertyValueFactory<>("supCompany"));
         colSupContact.setCellValueFactory(new PropertyValueFactory<>("supContactNumber"));
         loadTable();
-
-
     }
     public void loadItemTable(String id) {
         ObservableList<Item> list = FXCollections.observableArrayList();

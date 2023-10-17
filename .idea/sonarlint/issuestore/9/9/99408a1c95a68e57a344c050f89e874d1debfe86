@@ -1,0 +1,14 @@
+
+m	java:S116"RRename this field "OrderId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉµéK8â¬©½³1
+l	java:S116"PRename this field "EMPID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Àİª8â¬©½³1
+n	java:S116"RRename this field "CusName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¬Ù8â¬©½³1
+p	java:S116"URename this field "CusContact" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÄô8â¬©½³1
+o	java:S116"SRename this field "CusEmail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¤Üƒ8ã¬©½³1
+u	java:S116"TRename this field "OrderDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õö®³ÿÿÿÿÿ8ˆ÷Ñ½³1
+s	java:S116"RRename this field "Payment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ê»ùÿÿÿÿ8ã¬©½³1
+s	java:S116"RRename this field "item_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â§ñøÿÿÿÿ8ã¬©½³1
+y	java:S116"XRename this field "selling_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ë˜àûÿÿÿÿ8ã¬©½³1
+z	java:S116"YRename this field "discount_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÉ“‡øÿÿÿÿ8ã¬©½³1
+w	java:S116"VRename this field "final_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Üªßÿÿÿÿÿ8ã¬©½³1
+z	java:S116"YRename this field "total_discount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å†Áıÿÿÿÿ8ã¬©½³1
+r	java:S116"VRename this field "grand_total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¢Ê»8øĞ½³1

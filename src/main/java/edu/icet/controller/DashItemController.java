@@ -131,7 +131,6 @@ public class DashItemController implements Initializable {
 
         SelectType.setItems(clothingTypes);
 
-        // Add an event listener to handle changes in the selected clothing type
         SelectType.valueProperty().addListener((observable, oldValue, newValue) -> {
             updateSelectSize(newValue);
         });
@@ -162,7 +161,6 @@ public class DashItemController implements Initializable {
         }
     }
 
-    // Initialize the sizeMap with sizes for each clothing type
     private void initializeSizeMap() {
         // Add sizes for T-shirts
         ObservableList<String> tShirtSizes = FXCollections.observableArrayList(

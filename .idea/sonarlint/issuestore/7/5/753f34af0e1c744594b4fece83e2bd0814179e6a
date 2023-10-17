@@ -1,0 +1,10 @@
+
+l	java:S116"PRename this field "EMPID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Àİª8Ş¼Ïğ²1
+s	java:S116"RRename this field "EMPName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¹ºßıÿÿÿÿ8¨œĞğ²1
+l	java:S116"QRename this field "EMPNic" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıŸ×f8¿ıĞğ²1
+p	java:S116"URename this field "EMPAddress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ãÊ08¹ØÑğ²1
+r	java:S116"QRename this field "EMPDob" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÎ¶Óÿÿÿÿÿ8—ÔÒğ²1
+v	java:S116"URename this field "EMPContact" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îáˆıÿÿÿÿ8òœÔğ²1
+w	java:S116"VRename this field "EMPBankAcNo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ú†úüÿÿÿÿ8± Õğ²1
+p	java:S116"TRename this field "EMPBranch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¡œÅ8óîÕğ²1
+o	java:S116"SRename this field "EMPTitle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜”ö€8¢İÖò²1

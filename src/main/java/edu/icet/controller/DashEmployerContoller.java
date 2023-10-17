@@ -16,6 +16,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
 import java.sql.*;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class DashEmployerContoller implements Initializable {
@@ -279,4 +280,5 @@ public class DashEmployerContoller implements Initializable {
             e.printStackTrace();
         }
     }
+
 }

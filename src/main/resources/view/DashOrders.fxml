@@ -22,165 +22,164 @@
             <Image url="@../images/thom-bradley-mwa_nzFpnJw-unsplash.jpg" />
          </image>
       </ImageView>
-      <Pane layoutY="-1.0" prefHeight="680.0" prefWidth="700.0" style="-fx-background-color: rgba(29, 24, 11, 0.4);">
+      <Pane prefHeight="680.0" prefWidth="700.0" style="-fx-background-color: rgba(29, 24, 11, 0.4);">
          <children>
-            <JFXButton text="🔙" textFill="#ebebeb">
+            <JFXButton layoutX="-27.0" layoutY="-22.0" text="🔙" textFill="#ebebeb">
                <font>
                   <Font size="50.0" />
                </font>
             </JFXButton>
-            <Label layoutX="437.0" layoutY="35.0" text="Order ID* :" textFill="WHITE">
+            <Label layoutX="437.0" layoutY="8.0" text="Order ID  :" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="26.0" />
                </font>
             </Label>
-            <Label fx:id="lblOrderId" layoutX="575.0" layoutY="36.0" text="ORD00001" textFill="WHITE">
+            <Label fx:id="lblOrderId" layoutX="575.0" layoutY="9.0" text="ORD00001" textFill="WHITE">
                <font>
                   <Font size="25.0" />
                </font>
             </Label>
-            <Label layoutX="8.0" layoutY="121.0" prefHeight="25.0" prefWidth="142.0" text="Employer ID*         :" textFill="WHITE">
+            <Label layoutX="8.0" layoutY="82.0" prefHeight="25.0" prefWidth="142.0" text="Employer ID*         :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="8.0" layoutY="151.0" prefHeight="25.0" prefWidth="142.0" text="Customer Name    :" textFill="WHITE">
+            <Label layoutX="8.0" layoutY="124.0" prefHeight="25.0" prefWidth="142.0" text="Customer Name    :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="8.0" layoutY="181.0" text="Customer Contact :" textFill="WHITE">
+            <Label layoutX="8.0" layoutY="167.0" text="Customer Contact :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="8.0" layoutY="211.0" prefHeight="25.0" prefWidth="142.0" text="Customer Email     :" textFill="WHITE">
+            <Label layoutX="8.0" layoutY="193.0" prefHeight="25.0" prefWidth="142.0" text="Customer Email     :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="9.0" layoutY="241.0" prefHeight="25.0" prefWidth="142.0" text="Date*                     :" textFill="WHITE">
+            <Label layoutX="9.0" layoutY="229.0" prefHeight="25.0" prefWidth="142.0" text="Date*                     :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="10.0" layoutY="271.0" prefHeight="25.0" prefWidth="135.0" text="Payment*              :" textFill="WHITE">
+            <Label layoutX="10.0" layoutY="263.0" prefHeight="25.0" prefWidth="135.0" text="Payment*              :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="236.0" layoutY="115.0" prefHeight="25.0" prefWidth="119.0" promptText="Employer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <JFXComboBox fx:id="selectEmpId" layoutX="126.0" layoutY="121.0" prefHeight="25.0" prefWidth="87.0" unFocusColor="WHITE" />
-            <JFXTextField layoutX="137.0" layoutY="150.0" prefHeight="25.0" prefWidth="219.0" promptText="Enter Customer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <JFXTextField layoutX="137.0" layoutY="181.0" prefHeight="25.0" prefWidth="219.0" promptText="Enter Contact Number" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <JFXTextField layoutX="137.0" layoutY="211.0" prefHeight="25.0" prefWidth="219.0" promptText="email@gmail.com" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <JFXComboBox layoutX="138.0" layoutY="269.0" prefHeight="25.0" prefWidth="99.0" unFocusColor="#fbfbfb" />
-            <Label layoutX="402.0" layoutY="129.0" prefHeight="25.0" prefWidth="142.0" text="Item ID*         :" textFill="WHITE">
+            <JFXTextField fx:id="txtEmpName" layoutX="239.0" layoutY="82.0" prefHeight="25.0" prefWidth="87.0" promptText="Employer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <JFXComboBox fx:id="selectEmpId" layoutX="127.0" layoutY="82.0" prefHeight="25.0" prefWidth="102.0" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtCusName" layoutX="137.0" layoutY="123.0" prefHeight="25.0" prefWidth="191.0" promptText="Enter Customer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
+            <JFXTextField fx:id="txtCusContact" layoutX="137.0" layoutY="162.0" prefHeight="25.0" prefWidth="191.0" promptText="Enter Contact Number" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
+            <JFXTextField fx:id="txtCusEmail" layoutX="137.0" layoutY="193.0" prefHeight="25.0" prefWidth="191.0" promptText="email@gmail.com" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
+            <JFXComboBox fx:id="selectPayment" layoutX="138.0" layoutY="261.0" prefHeight="25.0" prefWidth="99.0" unFocusColor="#fbfbfb" />
+            <Label layoutX="362.0" layoutY="115.0" prefHeight="25.0" prefWidth="142.0" text="Item ID*         :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label layoutX="402.0" layoutY="159.0" prefHeight="25.0" prefWidth="99.0" text="Description    :" textFill="WHITE">
+            <Label layoutX="362.0" layoutY="145.0" prefHeight="25.0" prefWidth="99.0" text="Description    :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="588.0" layoutY="123.0" prefHeight="25.0" prefWidth="99.0" promptText="Employer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <JFXComboBox layoutX="504.0" layoutY="123.0" prefHeight="25.0" prefWidth="74.0" unFocusColor="WHITE" />
-            <JFXTextField layoutX="504.0" layoutY="155.0" prefHeight="25.0" prefWidth="185.0" promptText="Description" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Label layoutX="401.0" layoutY="194.0" prefHeight="25.0" prefWidth="49.0" text="Qty    :" textFill="WHITE">
+            <JFXComboBox fx:id="selectItemType" layoutX="462.0" layoutY="83.0" prefHeight="25.0" prefWidth="87.0" promptText="Select Type" style="-fx-prompt-text-fill: #cac9d6;" unFocusColor="WHITE" />
+            <JFXTextField fx:id="txtItemDescription" layoutX="464.0" layoutY="141.0" prefHeight="25.0" prefWidth="185.0" promptText="Description" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <Label layoutX="362.0" layoutY="182.0" prefHeight="25.0" prefWidth="49.0" text="Qty    :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="452.0" layoutY="190.0" prefHeight="25.0" prefWidth="49.0" promptText="Qty" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Label layoutX="537.0" layoutY="196.0" prefHeight="25.0" prefWidth="87.0" text="Qty Hand    :" textFill="WHITE">
+            <JFXTextField fx:id="txtItemQty" alignment="CENTER" layoutX="416.0" layoutY="178.0" prefHeight="25.0" prefWidth="49.0" promptText="Qty" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="WHITE" />
+            <Label layoutX="516.0" layoutY="178.0" prefHeight="25.0" prefWidth="87.0" text="Qty Hand    :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="620.0" layoutY="194.0" prefHeight="25.0" prefWidth="68.0" promptText="Qty Hand" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Label layoutX="401.0" layoutY="228.0" prefHeight="25.0" prefWidth="49.0" text="Type    :" textFill="WHITE">
+            <JFXTextField fx:id="TxtItemQtyonHand" layoutX="599.0" layoutY="176.0" prefHeight="25.0" prefWidth="68.0" promptText="  Qty Hand" style="-fx-text-fill: #311f1f; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
+            <Label layoutX="362.0" layoutY="83.0" prefHeight="25.0" prefWidth="98.0" text="Item Type      :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="452.0" layoutY="224.0" prefHeight="25.0" prefWidth="49.0" promptText="Type" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Label layoutX="537.0" layoutY="230.0" prefHeight="25.0" prefWidth="87.0" text="Size            :" textFill="WHITE">
+            <JFXTextField fx:id="txtItemId" layoutX="463.0" layoutY="113.0" prefHeight="25.0" prefWidth="185.0" promptText="Item Id" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <Label layoutX="556.0" layoutY="85.0" prefHeight="25.0" prefWidth="49.0" text="Size     :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="620.0" layoutY="228.0" prefHeight="25.0" prefWidth="68.0" promptText="Size" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Label layoutX="401.0" layoutY="258.0" prefHeight="25.0" prefWidth="99.0" text="Selling Price    :" textFill="WHITE">
+            <Label layoutX="362.0" layoutY="221.0" prefHeight="25.0" prefWidth="99.0" text="Selling Price    :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="503.0" layoutY="254.0" prefHeight="25.0" prefWidth="185.0" promptText="0.00" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Label layoutX="401.0" layoutY="284.0" prefHeight="25.0" prefWidth="99.0" text="Profit              :" textFill="WHITE">
+            <JFXTextField fx:id="txtSellingPrice" layoutX="464.0" layoutY="217.0" prefHeight="25.0" prefWidth="185.0" promptText="0.00" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
+            <Label layoutX="361.0" layoutY="251.0" prefHeight="25.0" prefWidth="99.0" text="Discount         :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXTextField layoutX="503.0" layoutY="280.0" prefHeight="25.0" prefWidth="185.0" promptText="0.00" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Button layoutX="247.0" layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: #FFE7CC;" text="Remove Order">
+            <JFXTextField fx:id="txtDiscount" layoutX="465.0" layoutY="247.0" prefHeight="25.0" prefWidth="87.0" promptText="   %" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
+            <Button layoutX="247.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnRemoveOrder" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: #FFE7CC;" text="Remove Order">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="375.0" layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #FFE7CC;" text="Confirm">
+            <Button layoutX="375.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnConfirm" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #FFE7CC;" text="Confirm">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="488.0" layoutY="322.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="98.0" style="-fx-background-color: #FFE7CC;" text="Update">
+            <Button layoutX="488.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnUpdate" prefHeight="30.0" prefWidth="98.0" style="-fx-background-color: #FFE7CC;" text="Update">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="597.0" layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #FFE7CC;" text="Add to Cart">
+            <Button layoutX="597.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnAddtoCart" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #FFE7CC;" text="Add to Cart">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <TableView layoutX="12.0" layoutY="398.0" prefHeight="200.0" prefWidth="676.0" style="-fx-background-color: rgba(255, 255, 255, 0.70);">
+            <TableView fx:id="tblOrder" layoutX="12.0" layoutY="398.0" prefHeight="200.0" prefWidth="676.0" style="-fx-background-color: rgba(255, 255, 255, 0.70);">
               <columns>
-                <TableColumn prefWidth="75.0" text="Item Code" />
-                <TableColumn prefWidth="75.0" text="Description" />
-                  <TableColumn prefWidth="75.0" text="Qty" />
-                  <TableColumn prefWidth="75.0" text="Unit Price" />
-                  <TableColumn prefWidth="75.0" text="Qty Hand" />
-                  <TableColumn prefWidth="75.0" text="Type" />
-                  <TableColumn prefWidth="75.0" text="Size" />
-                  <TableColumn prefWidth="75.0" text="Amount" />
-                  <TableColumn prefWidth="75.0" text="Date" />
+                <TableColumn fx:id="colItemCode" prefWidth="75.0" text="Item Code" />
+                <TableColumn fx:id="colItemType" prefWidth="75.0" text="Item Type" />
+                  <TableColumn fx:id="tblItemType" prefWidth="75.0" text="Item Size" />
+                  <TableColumn fx:id="colQty" prefWidth="75.0" text="Qty" />
+                  <TableColumn fx:id="colSellingPrice" prefWidth="105.6666259765625" text="Selling Price" />
+                  <TableColumn fx:id="colDiscount" prefWidth="68.0" text="Discount" />
+                  <TableColumn fx:id="colFinalPrice" prefWidth="111.0" text="Final Price" />
+                  <TableColumn fx:id="colPaymentType" prefWidth="92.66668701171875" text="Payment Type" />
               </columns>
             </TableView>
-            <Label layoutX="16.0" layoutY="623.0" text="Grand Total : " textFill="WHITE">
+            <Label layoutX="10.0" layoutY="637.0" text="Grand Total : " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <TextField layoutX="118.0" layoutY="623.0" prefHeight="25.0" prefWidth="74.0" promptText="0.00" style="-fx-background-color: rgba(255, 255, 255, 0); -fx-prompt-text-fill: #FF0000;" />
-            <Label layoutX="192.0" layoutY="623.0" text="Discount : " textFill="WHITE">
+            <TextField fx:id="txtGrandTotal" layoutX="112.0" layoutY="637.0" prefHeight="25.0" prefWidth="56.0" promptText="0.00" style="-fx-background-color: rgba(255, 255, 255, 0); -fx-prompt-text-fill: #cac9d6; -fx-text-fill: #FFFFFF;" />
+            <Label layoutX="192.0" layoutY="637.0" text="Discount : " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <TextField layoutX="283.0" layoutY="623.0" prefHeight="25.0" prefWidth="74.0" promptText="0.00" style="-fx-background-color: rgba(255, 255, 255, 0); -fx-prompt-text-fill: #910000;" />
-            <Label layoutX="345.0" layoutY="621.0" text="Balance : " textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
-            <TextField layoutX="421.0" layoutY="621.0" prefHeight="25.0" prefWidth="74.0" promptText="0.00" style="-fx-background-color: rgba(255, 255, 255, 0); -fx-prompt-text-fill: #910000;" />
-            <Button layoutX="553.0" layoutY="621.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #910000;" text="Place Order" textFill="WHITE">
+            <TextField fx:id="txtTotalDiscount" layoutX="283.0" layoutY="637.0" prefHeight="25.0" prefWidth="74.0" promptText="0.00" style="-fx-background-color: rgba(255, 255, 255, 0); -fx-prompt-text-fill: #910000;" />
+            <Button layoutX="553.0" layoutY="635.0" mnemonicParsing="false" onAction="#btnPlaceOrder" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #910000;" text="Place Order" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <DatePicker layoutX="137.0" layoutY="242.0" />
+            <DatePicker fx:id="txtdate" layoutX="137.0" layoutY="230.0" />
+            <JFXComboBox fx:id="selectItemSize" layoutX="606.0" layoutY="85.0" prefHeight="25.0" prefWidth="87.0" promptText="Select Size" style="-fx-prompt-text-fill: #cac9d6;" unFocusColor="WHITE" />
+            <Label layoutX="361.0" layoutY="286.0" text="Final Price       :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtFinalPrice" layoutX="466.0" layoutY="275.0" promptText="Final Price" style="-fx-prompt-text-fill: #cac9d6; -fx-text-fill: #FFFFFF;" unFocusColor="WHITE" />
+            <JFXButton layoutX="573.0" layoutY="247.0" onAction="#btnCalculateFinal" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: rgba(82, 114, 242,0.9);" text="Calculate" textFill="WHITE" />
          </children>
       </Pane>
    </children>
