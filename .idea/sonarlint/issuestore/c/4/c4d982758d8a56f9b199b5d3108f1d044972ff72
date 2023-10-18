@@ -5,14 +5,26 @@ s	java:S117±"QRename this local variable to match the regular expression '^[a
 m	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÆŞ8ŸÑ´Í³1
 s	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¬Çöÿÿÿÿÿ8ÁÜÖÍ³1
 r
+java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(åµÛÊûÿÿÿÿ8ÀÖ²Ê³1
+r
 java:S2095Á"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ò‰ ùÿÿÿÿ8ÀÖ²Ê³1
 e
 java:S2095°"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8ÊÑ´Í³1
-r
-java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(åµÛÊûÿÿÿÿ8ÀÖ²Ê³1
 e
 java:S2095Ò"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8ÀÖ²Ê³1
 w	java:S1165"[Rename this field "TxtItemQtyonHand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÈĞÛ8ÁÖ²Ê³1
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•¹ƒ8ºéˆá³1
+Ÿ
+java:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ÿöú³8»éˆá³1
+¤
+java:S1186‹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ¤š¹ıÿÿÿÿ8»éˆá³1
+¤
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÓÀÔúÿÿÿÿ8¼éˆá³1
+¤
+java:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¡ò—şÿÿÿÿ8¼éˆá³1
+¤
+java:S1186š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğğïŠüÿÿÿÿ8¼éˆá³1
 c
 java:S2147"ECombine this catch with the one at line 127, which has the same body.(ıàÑÎ8ÄÖ²Ê³1
 J
@@ -20,7 +32,5 @@ java:S1602„",Remove useless curly braces around statement(Ò½ñÀ8ÅÖ²Ê³1
 U
 java:S1481‰"7Remove this unused "selectedEmployerId" local variable.(ĞˆŠô8‡ÇëÌ³1
 F	java:S108ù")Either remove or fill this block of code.(å¥‡8üõÖÍ³1
-W
-java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ8à—¯Í³1
 S
 java:S1128"6Remove this unused import 'javafx.event.EventHandler'.(º»û˜8à—¯Í³1

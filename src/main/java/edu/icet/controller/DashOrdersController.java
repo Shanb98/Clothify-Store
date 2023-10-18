@@ -79,6 +79,10 @@ public class DashOrdersController implements Initializable {
     @FXML
     private TableColumn<?, ?> colItemCode;
 
+
+
+
+
     @FXML
     private TableColumn<?, ?> colItemType;
 

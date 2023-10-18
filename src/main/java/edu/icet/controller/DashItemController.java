@@ -321,7 +321,6 @@ public class DashItemController implements Initializable {
             return false;
         }
     }
-
     private void clearInputFields() {
         txtItemCode.clear();
         txtItemDescription.clear();

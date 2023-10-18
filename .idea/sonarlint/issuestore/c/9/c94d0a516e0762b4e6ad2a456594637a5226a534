@@ -7,13 +7,13 @@ c
 java:S1192L"FDefine a constant instead of duplicating this literal "title" 3 times.(ã®²ò8”Êî¢³1
 n	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§®§8•Êî¢³1
 q
+java:S2095V"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.( ì•‹ùÿÿÿÿ8ğ»ï¢³1
+q
 java:S2095p"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(³ó¾ñşÿÿÿÿ8áÊî¢³1
 e
-java:S2095Š"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8áÊî¢³1
-q
-java:S2095V"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.( ì•‹ùÿÿÿÿ8ğ»ï¢³1
-e
 java:S2095Ö"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8áÊî¢³1
+e
+java:S2095Š"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8áÊî¢³1
 v	java:S116."URename this field "ColSupName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»‹Š¤şÿÿÿÿ8ãÊî¢³1
 ¤
 java:S1186Ñ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(š¿Á¥ùÿÿÿÿ8ãÊî¢³1

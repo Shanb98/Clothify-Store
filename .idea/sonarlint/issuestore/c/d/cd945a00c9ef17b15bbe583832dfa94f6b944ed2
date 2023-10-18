@@ -1,50 +1,50 @@
 
-g	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ğ˜ú²1
-g	java:S112^"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ğ˜ú²1
-h	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¿×œû²1
+g	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8æ®¶ç³1
+g	java:S112^"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ç®¶ç³1
+h	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ç®¶ç³1
 k
-java:S1192m"NDefine a constant instead of duplicating this literal "selling_price" 3 times.(†Îˆ¶8—ŒÅû²1
+java:S1192m"NDefine a constant instead of duplicating this literal "selling_price" 3 times.(†Îˆ¶8é®¶ç³1
 d
-java:S1192§"FDefine a constant instead of duplicating this literal "Large" 5 times.(•Éø¾8‘Ğ˜ú²1
+java:S1192§"FDefine a constant instead of duplicating this literal "Large" 5 times.(•Éø¾8é®¶ç³1
 o
-java:S1192n"MDefine a constant instead of duplicating this literal "buying_price" 3 times.(Å×í™ıÿÿÿÿ8—ŒÅû²1
+java:S1192n"MDefine a constant instead of duplicating this literal "buying_price" 3 times.(Å×í™ıÿÿÿÿ8é®¶ç³1
 n
-java:S1192k"LDefine a constant instead of duplicating this literal "description" 3 times.(Ã–àüÿÿÿÿ8—ŒÅû²1
+java:S1192k"LDefine a constant instead of duplicating this literal "description" 3 times.(Ã–àüÿÿÿÿ8ê®¶ç³1
 i
-java:S1192q"GDefine a constant instead of duplicating this literal "profit" 3 times.(‡û¥Ñÿÿÿÿÿ8—ŒÅû²1
+java:S1192q"GDefine a constant instead of duplicating this literal "profit" 3 times.(‡û¥Ñÿÿÿÿÿ8ê®¶ç³1
 d
-java:S1192§"FDefine a constant instead of duplicating this literal "Small" 5 times.(•Éø¾8‘Ğ˜ú²1
+java:S1192§"FDefine a constant instead of duplicating this literal "Small" 5 times.(•Éø¾8ê®¶ç³1
 e
-java:S1192j"HDefine a constant instead of duplicating this literal "item_id" 4 times.(£ô€ç8µÚ­û²1
+java:S1192j"HDefine a constant instead of duplicating this literal "item_id" 4 times.(£ô€ç8ê®¶ç³1
 f
-java:S1192§"HDefine a constant instead of duplicating this literal "X-Large" 5 times.(•Éø¾8‘Ğ˜ú²1
+java:S1192§"HDefine a constant instead of duplicating this literal "X-Large" 5 times.(•Éø¾8ê®¶ç³1
 e
-java:S1192§"GDefine a constant instead of duplicating this literal "Medium" 5 times.(•Éø¾8‘Ğ˜ú²1
+java:S1192§"GDefine a constant instead of duplicating this literal "Medium" 5 times.(•Éø¾8ë®¶ç³1
 n
-java:S1192r"LDefine a constant instead of duplicating this literal "supplier_id" 3 times.(¢şÙÑşÿÿÿÿ8—ŒÅû²1
-s	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïö­Íüÿÿÿÿ8‘Ğ˜ú²1
-n	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¯ò°8˜ŒÅû²1
+java:S1192r"LDefine a constant instead of duplicating this literal "supplier_id" 3 times.(¢şÙÑşÿÿÿÿ8ë®¶ç³1
+s	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïö­Íüÿÿÿÿ8ì®¶ç³1
+n	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¯ò°8ì®¶ç³1
 J
-java:S1604c"(Make this anonymous inner class a lambda(â×şÿÿÿÿ8’Ğ˜ú²1
+java:S1604c"(Make this anonymous inner class a lambda(â×şÿÿÿÿ8í®¶ç³1
+e
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8æ¯¶ç³1
+e
+java:S2095ã"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8æ¯¶ç³1
+e
+java:S2095Š"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8æ¯¶ç³1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(©ÚË¬üÿÿÿÿ8æ¯¶ç³1
 l
-java:S2095ğ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ì„ÖD8¬Ğ˜ú²1
+java:S2095ğ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ì„ÖD8æ¯¶ç³1
 r
-java:S2095¯"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ô£Çàıÿÿÿÿ8±‰¦û²1
-e
-java:S2095‹"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8¬Ğ˜ú²1
-r
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(©ÚË¬üÿÿÿÿ8²‰¦û²1
-e
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8¬Ğ˜ú²1
-e
-java:S2095ä"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8ÏŒÅû²1
-q	java:S116G"URename this field "SelectType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßı°8¬Ğ˜ú²1
-r	java:S116U"VRename this field "SelectSupId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( âÛó8¬Ğ˜ú²1
+java:S2095¯"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ô£Çàıÿÿÿÿ8æ¯¶ç³1
+q	java:S116G"URename this field "SelectType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßı°8è¯¶ç³1
+r	java:S116U"VRename this field "SelectSupId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( âÛó8è¯¶ç³1
 Ÿ
-java:S1186Ú"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ÃæÜ8¬Ğ˜ú²1
+java:S1186Ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”ÃæÜ8è¯¶ç³1
 ¤
-java:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(š¿Á¥ùÿÿÿÿ8¬Ğ˜ú²1
+java:S1186…"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(š¿Á¥ùÿÿÿÿ8è¯¶ç³1
 a
-java:S2147]"DCombine this catch with the one at line 91, which has the same body.(ıàÑÎ8¯Ğ˜ú²1
+java:S2147]"DCombine this catch with the one at line 91, which has the same body.(ıàÑÎ8ñ¯¶ç³1
 I
-java:S1602†",Remove useless curly braces around statement(ÄÙĞ88±Ğ˜ú²1
+java:S1602†",Remove useless curly braces around statement(ÄÙĞ88÷¯¶ç³1
