@@ -74,7 +74,7 @@
             <JFXTextField fx:id="txtCusName" layoutX="137.0" layoutY="123.0" prefHeight="25.0" prefWidth="191.0" promptText="Enter Customer Name" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
             <JFXTextField fx:id="txtCusContact" layoutX="137.0" layoutY="162.0" prefHeight="25.0" prefWidth="191.0" promptText="Enter Contact Number" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
             <JFXTextField fx:id="txtCusEmail" layoutX="137.0" layoutY="193.0" prefHeight="25.0" prefWidth="191.0" promptText="email@gmail.com" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #808080; -fx-background-color: rgba(255, 255, 255, 0.50);" unFocusColor="#fdfdfd" />
-            <JFXComboBox fx:id="selectPayment" layoutX="138.0" layoutY="261.0" prefHeight="25.0" prefWidth="99.0" unFocusColor="#fbfbfb" />
+            <JFXComboBox fx:id="selectPayment" layoutX="138.0" layoutY="261.0" prefHeight="25.0" prefWidth="142.0" unFocusColor="#fbfbfb" />
             <Label layoutX="362.0" layoutY="115.0" prefHeight="25.0" prefWidth="142.0" text="Item ID*         :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
@@ -85,7 +85,7 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <JFXComboBox fx:id="selectItemType" layoutX="462.0" layoutY="83.0" prefHeight="25.0" prefWidth="87.0" promptText="Select Type" style="-fx-prompt-text-fill: #cac9d6;" unFocusColor="WHITE" />
+            <JFXComboBox fx:id="selectItemType" layoutX="462.0" layoutY="83.0" prefHeight="25.0" prefWidth="102.0" promptText="Select Type" style="-fx-prompt-text-fill: #cac9d6;" unFocusColor="WHITE" />
             <JFXTextField fx:id="txtItemDescription" layoutX="464.0" layoutY="141.0" prefHeight="25.0" prefWidth="185.0" promptText="Description" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
             <Label layoutX="362.0" layoutY="182.0" prefHeight="25.0" prefWidth="49.0" text="Qty    :" textFill="WHITE">
                <font>
@@ -105,7 +105,7 @@
                </font>
             </Label>
             <JFXTextField fx:id="txtItemId" layoutX="463.0" layoutY="113.0" prefHeight="25.0" prefWidth="185.0" promptText="Item Id" style="-fx-text-fill: #FFFFFF; -fx-prompt-text-fill: #cac9d6;" unFocusColor="#fdfdfd" />
-            <Label layoutX="556.0" layoutY="85.0" prefHeight="25.0" prefWidth="49.0" text="Size     :" textFill="WHITE">
+            <Label layoutX="568.0" layoutY="87.0" prefHeight="25.0" prefWidth="40.0" text="Size  :" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
@@ -151,7 +151,7 @@
                   <TableColumn fx:id="colSellingPrice" prefWidth="105.6666259765625" text="Selling Price" />
                   <TableColumn fx:id="colDiscount" prefWidth="68.0" text="Discount" />
                   <TableColumn fx:id="colFinalPrice" prefWidth="111.0" text="Final Price" />
-                  <TableColumn fx:id="colPaymentType" prefWidth="92.66668701171875" text="Payment Type" />
+                  <TableColumn fx:id="colTotal" prefWidth="92.66668701171875" text="Total Price" />
               </columns>
             </TableView>
             <Label layoutX="10.0" layoutY="637.0" text="Grand Total : " textFill="WHITE">

@@ -21,12 +21,6 @@ java:S1192v"LDefine a constant instead of duplicating this literal "EMPBankAcNo
 g
 java:S1192w"JDefine a constant instead of duplicating this literal "EMPBranch" 3 times.(û°¦Ù8êÜÁ–³1
 s	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“§€ùıÿÿÿÿ8êÜÁ–³1
-m
-java:S2095ß"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¨8™İÁ–³1
-e
-java:S2095…"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8µÚÑ–³1
-e
-java:S2095ú"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8™İÁ–³1
 ¤
 java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ†€ªıÿÿÿÿ8™İÁ–³1
 e
@@ -35,5 +29,3 @@ c
 java:S2147×"ECombine this catch with the one at line 213, which has the same body.(ıàÑÎ8¡İÁ–³1
 e
 java:S1858Ã"B"getValue" returns a string, there's no need to call "toString()".(àï©úÿÿÿÿ8¢İÁ–³1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8€ŸÚ¿³1

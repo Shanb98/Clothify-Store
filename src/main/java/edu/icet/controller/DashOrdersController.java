@@ -3,6 +3,9 @@ package edu.icet.controller;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXTextField;
 import edu.icet.db.DBConnection;
+import edu.icet.entity.Order;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -38,7 +41,7 @@ public class DashOrdersController implements Initializable {
     private JFXTextField txtCusEmail;
 
     @FXML
-    private JFXComboBox<?> selectPayment;
+    private JFXComboBox<String> selectPayment;
 
     @FXML
     private JFXComboBox<String> selectItemType;
@@ -80,9 +83,6 @@ public class DashOrdersController implements Initializable {
     private TableColumn<?, ?> colItemCode;
 
 
-
-
-
     @FXML
     private TableColumn<?, ?> colItemType;
 
@@ -102,7 +102,7 @@ public class DashOrdersController implements Initializable {
     private TableColumn<?, ?> colFinalPrice;
 
     @FXML
-    private TableColumn<?, ?> colPaymentType;
+    private TableColumn<?, ?> colTotal;
 
     @FXML
     private TextField txtGrandTotal;
@@ -141,7 +141,7 @@ public class DashOrdersController implements Initializable {
             String selectedEmployerId = selectEmpId.getValue();
         });
         setupItemSizeActionEvent(); // Call this method to set up the action event for selectItemSize
-
+        loadCmb();
     }
 
     private void generateId() {
@@ -226,7 +226,10 @@ public class DashOrdersController implements Initializable {
             }
         }
     }
-
+    public void loadCmb(){
+        ObservableList<String> obs = FXCollections.observableArrayList("Cash", "Card","Bank Transfer","Other");
+        selectPayment.setItems(obs);
+    }
     private void setupItemSizeActionEvent() {
         selectItemSize.setOnAction(event -> {
             String selectedItemType = selectItemType.getValue();
@@ -259,12 +262,43 @@ public class DashOrdersController implements Initializable {
     }
     @FXML
     void btnAddtoCart(ActionEvent event) {
+        String orderId = lblOrderId.getText();
+        String empId = selectEmpId.getValue();
+        String cusName = txtCusName.getText();
+        String cusContact = txtCusContact.getText();
+        String cusEmail = txtCusEmail.getText();
+        String orderDate = txtdate.getValue().toString();
+        String payment = selectPayment.getValue();
+        String itemId = txtItemId.getText();
+        String description = txtItemDescription.getText();
+        String itemType = selectItemType.getValue();
+        String itemSize = selectItemSize.getValue();
+        int itemQty = Integer.parseInt(txtItemQty.getText());
+        int qtyOnHand = Integer.parseInt(TxtItemQtyonHand.getText());
+        double sellingPrice = Double.parseDouble(txtSellingPrice.getText());
+        double discount = Double.parseDouble(txtDiscount.getText());
+
+        if(qtyOnHand<itemQty){
+            new Alert(Alert.AlertType.WARNING,"Invalid Qty, Only "+qtyOnHand+" Qts available ").show();
+            return;
+        }
 
     }
-
+    private  void calculateTotal(){
+        double ttl = 0;
+        for (Order tm: cartList){
+            ttl+=tm.getGrand_total();
+        }
+        txtGrandTotal.setText(ttl+"0 /= ");
+    }
+    ObservableList<Order> cartList = FXCollections.observableArrayList();
     @FXML
     void btnCalculateFinal(ActionEvent event) {
-
+        double discount = Double.parseDouble(txtDiscount.getText());
+        double sellingPrice = Double.parseDouble(txtSellingPrice.getText());
+        double discountPrice = (discount*sellingPrice)/100;
+        double finalPrice = sellingPrice-discountPrice;
+        txtFinalPrice.setText(String.valueOf(finalPrice));
     }
 
     @FXML

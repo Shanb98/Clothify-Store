@@ -1,36 +1,86 @@
 
-h	java:S112€"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8œÖ²Ê³1
-h	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8œÖ²Ê³1
-s	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ÙÜüùÿÿÿÿ8Ö²Ê³1
-m	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÆŞ8ŸÑ´Í³1
-s	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¬Çöÿÿÿÿÿ8ÁÜÖÍ³1
-r
-java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(åµÛÊûÿÿÿÿ8ÀÖ²Ê³1
-r
-java:S2095Á"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ò‰ ùÿÿÿÿ8ÀÖ²Ê³1
+h	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¹·±´1
+h	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8º·±´1
+s	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ÙÜüùÿÿÿÿ8¼·±´1
+m	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÆŞ8½·±´1
+s	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¬Çöÿÿÿÿÿ8½·±´1
 e
-java:S2095°"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8ÊÑ´Í³1
+java:S2095Ö"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8·±´1
+r
+java:S2095Å"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ò‰ ùÿÿÿÿ8·±´1
+r
+java:S2095¤"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(åµÛÊûÿÿÿÿ8·±´1
 e
-java:S2095Ò"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8ÀÖ²Ê³1
-w	java:S1165"[Rename this field "TxtItemQtyonHand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÈĞÛ8ÁÖ²Ê³1
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•¹ƒ8ºéˆá³1
-Ÿ
-java:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ÿöú³8»éˆá³1
+java:S2095´"GUse try-with-resources or close this "Statement" in a "finally" clause.(†—İ8·±´1
+w	java:S1168"[Rename this field "TxtItemQtyonHand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÈĞÛ8·±´1
 ¤
-java:S1186‹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ¤š¹ıÿÿÿÿ8»éˆá³1
+java:S1186±"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ¤š¹ıÿÿÿÿ8·±´1
 ¤
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÓÀÔúÿÿÿÿ8¼éˆá³1
+java:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÓÀÔúÿÿÿÿ8·±´1
 ¤
-java:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¡ò—şÿÿÿÿ8¼éˆá³1
+java:S1186»"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¡ò—şÿÿÿÿ8·±´1
 ¤
-java:S1186š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğğïŠüÿÿÿÿ8¼éˆá³1
+java:S1186À"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğğïŠüÿÿÿÿ8·±´1
 c
-java:S2147"ECombine this catch with the one at line 127, which has the same body.(ıàÑÎ8ÄÖ²Ê³1
+java:S2147…"ECombine this catch with the one at line 131, which has the same body.(ıàÑÎ8–·±´1
 J
-java:S1602„",Remove useless curly braces around statement(Ò½ñÀ8ÅÖ²Ê³1
+java:S1602ˆ",Remove useless curly braces around statement(Ò½ñÀ8˜·±´1
 U
-java:S1481‰"7Remove this unused "selectedEmployerId" local variable.(ĞˆŠô8‡ÇëÌ³1
-F	java:S108ù")Either remove or fill this block of code.(å¥‡8üõÖÍ³1
-S
-java:S1128"6Remove this unused import 'javafx.event.EventHandler'.(º»û˜8à—¯Í³1
+java:S1481"7Remove this unused "selectedEmployerId" local variable.(ĞˆŠô8š·±´1
+F	java:S108€")Either remove or fill this block of code.(å¥‡8¯·±´1
+_
+java:S1854—"<Remove this useless assignment to local variable "discount".(ô¶Æıÿÿÿÿ8š¼¸±´1
+^
+java:S1854–"@Remove this useless assignment to local variable "sellingPrice".(Ùû•8›¼¸±´1
+Z
+java:S1854“"<Remove this useless assignment to local variable "itemSize".(ÇîšË8›¼¸±´1
+Z
+java:S1854’"<Remove this useless assignment to local variable "itemType".(… è³8›¼¸±´1
+]
+java:S1854‘"?Remove this useless assignment to local variable "description".(ëà‚š8›¼¸±´1
+]
+java:S1854":Remove this useless assignment to local variable "itemId".(¯ÂÈ›ùÿÿÿÿ8›¼¸±´1
+^
+java:S1854";Remove this useless assignment to local variable "payment".(“¬¤áüÿÿÿÿ8›¼¸±´1
+[
+java:S1854"=Remove this useless assignment to local variable "orderDate".(òÎÎ8›¼¸±´1
+Z
+java:S1854"<Remove this useless assignment to local variable "cusEmail".(şŒÚ–8œ¼¸±´1
+a
+java:S1854Œ">Remove this useless assignment to local variable "cusContact".(İÜ±êıÿÿÿÿ8œ¼¸±´1
+^
+java:S1854‹";Remove this useless assignment to local variable "cusName".(›¡ë¨üÿÿÿÿ8œ¼¸±´1
+\
+java:S1854Š"9Remove this useless assignment to local variable "empId".(¯‚‚œşÿÿÿÿ8œ¼¸±´1
+Y
+java:S1854‰";Remove this useless assignment to local variable "orderId".(ªÄÄ†8¼¸±´1
+9
+java:S3626›"Remove this redundant jump.(ûÁİ…8¼¸±´1
+J
+java:S1481‰",Remove this unused "orderId" local variable.(ªÄÄ†8Ÿ¼¸±´1
+M
+java:S1481Š"*Remove this unused "empId" local variable.(¯‚‚œşÿÿÿÿ8Ÿ¼¸±´1
+O
+java:S1481‹",Remove this unused "cusName" local variable.(›¡ë¨üÿÿÿÿ8 ¼¸±´1
+R
+java:S1481Œ"/Remove this unused "cusContact" local variable.(İÜ±êıÿÿÿÿ8 ¼¸±´1
+K
+java:S1481"-Remove this unused "cusEmail" local variable.(şŒÚ–8¡¼¸±´1
+L
+java:S1481".Remove this unused "orderDate" local variable.(òÎÎ8¡¼¸±´1
+O
+java:S1481",Remove this unused "payment" local variable.(“¬¤áüÿÿÿÿ8¢¼¸±´1
+N
+java:S1481"+Remove this unused "itemId" local variable.(¯ÂÈ›ùÿÿÿÿ8¢¼¸±´1
+N
+java:S1481‘"0Remove this unused "description" local variable.(ëà‚š8£¼¸±´1
+K
+java:S1481’"-Remove this unused "itemType" local variable.(… è³8£¼¸±´1
+K
+java:S1481“"-Remove this unused "itemSize" local variable.(ÇîšË8¤¼¸±´1
+O
+java:S1481–"1Remove this unused "sellingPrice" local variable.(Ùû•8¥¼¸±´1
+P
+java:S1481—"-Remove this unused "discount" local variable.(ô¶Æıÿÿÿÿ8¦¼¸±´1
+V
+java:S1144Ÿ"3Remove this unused private "calculateTotal" method.(ğğ‰”ùÿÿÿÿ8¼·±´1
