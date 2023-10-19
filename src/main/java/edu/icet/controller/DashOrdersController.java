@@ -283,6 +283,7 @@ public class DashOrdersController implements Initializable {
             return;
         }
 
+
     }
     private  void calculateTotal(){
         double ttl = 0;
