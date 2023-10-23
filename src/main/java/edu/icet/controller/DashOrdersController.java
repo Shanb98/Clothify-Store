@@ -204,6 +204,7 @@ public class DashOrdersController implements Initializable {
     private void loadItemIds() throws SQLException, ClassNotFoundException {
         List<String> itemIds = getItemIds();
         selectItemType.getItems().addAll(itemIds);
+
     }
 
     private void loadItemTypesWithSizes() {
@@ -278,10 +279,7 @@ public class DashOrdersController implements Initializable {
         double sellingPrice = Double.parseDouble(txtSellingPrice.getText());
         double discount = Double.parseDouble(txtDiscount.getText());
 
-        if(qtyOnHand<itemQty){
-            new Alert(Alert.AlertType.WARNING,"Invalid Qty, Only "+qtyOnHand+" Qts available ").show();
-            return;
-        }
+
 
 
     }
